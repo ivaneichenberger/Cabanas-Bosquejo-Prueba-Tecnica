@@ -223,6 +223,78 @@ padding-right: 10px;
 .sobre-nosotros-container {
   padding: 100px;
 }
-.sobre-nosotros-container .titulo-sobre.nosotors{
-  
+.titulo-sobre-nosotros {
+  font-size: 45px;
+  background-color: #873636;
+  font-family: "Sedan";
+  padding: 25px; 
+  color: #f0f0f0;
+  display: inline-block; 
+  margin-left: -100px; 
+  border-radius: 0px 30px 30px 0px;
+  border-left: solid #873636 30px;
+}
+
+.titulo-sobre-nosotros span {
+  border-left: solid #fafafa 5px; 
+  padding-left: 20px; 
+}
+
+.nombre-cabaña-sobre-nosotros{
+  font-family: "Sedan";
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  color: #505050;
+}
+.text-nosotros-centrado{
+  display: flex;
+  justify-content: center;
+}
+.parrafo-nosotros{
+  color: #505050;
+  font-size: 20px;
+  width: 900px;
+  text-align: start;
+  height: 300px;
+  font-family: "Sedan SC";
+  line-height: 2;
+}
+.ubicacion-container{
+  display: flex;
+  justify-content: center;
+}
+.ubicacion{
+  border-top: solid black 6px;
+}
+.ubicacion-container iframe {
+  margin-top: 5px;
+  border-radius: 0px 0px 0px 30px;
+}
+.info-adicional-ubicacion img{
+  width: 500px;
+  height: auto;
+border-radius: 0px 30px 0px 0px;
+}
+.info-adicional-ubicacion{
+ margin-left: 30px; 
+}
+.info-adicional-ubicacion H2{
+  color: #873636;
+  font-family: "Sedan SC";
+}
+.info-adicional-ubicacion p{
+  width: 400px;
+  color: #505050;
+  font-size: 20px;
+  width: 400px;
+  text-align: start;
+  height: 300px;
+  font-family: "Sedan SC";
+  line-height: 1.5;
+}
+/*EQUIPO*/
+.equipo{
+  margin-top: -300px;
 }
