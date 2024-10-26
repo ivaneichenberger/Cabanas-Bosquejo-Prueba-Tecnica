@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Producto 1",
+        "descripcion": "Este es el producto 1, con todas sus características destacadas.",
+        "imagen": "https://via.placeholder.com/200",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2022-01-15",
+        "registro": "ABC123",
+        "familia": "Familia A"
+    },
+    {
+        "nombre": "Producto 2",
+        "descripcion": "Este es el producto 2, diseñado con las mejores características.",
+        "imagen": "https://via.placeholder.com/200",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2021-05-20",
+        "registro": "XYZ456",
+        "familia": "Familia B"
+    }
+]
