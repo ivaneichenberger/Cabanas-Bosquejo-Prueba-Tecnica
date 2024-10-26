@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const cardContainer = document.getElementById("card-container");
 
-    // Cargar los datos desde el archivo JSON
     fetch("../json/data.json")
         .then(response => response.json())
         .then(data => {
@@ -21,18 +20,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 `;
 
-                // Evento de clic para expandir o colapsar la card
                 card.addEventListener("click", () => {
                     if (card.classList.contains("expanded")) {
                         card.classList.remove("expanded");
                         card.querySelector(".extra-info").style.display = "none";
                     } else {
-                        // Cerrar cualquier otra card expandida
+
                         document.querySelectorAll(".card.expanded").forEach(expandedCard => {
                             expandedCard.classList.remove("expanded");
                             expandedCard.querySelector(".extra-info").style.display = "none";
                         });
-                        // Expandir la card seleccionada y mostrar detalles extra
+
                         card.classList.add("expanded");
                         card.querySelector(".extra-info").style.display = "block";
                     }
