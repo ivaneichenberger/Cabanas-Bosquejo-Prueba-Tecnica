@@ -1,0 +1,38 @@
+.remate-card {
+    display: flex;
+}
+
+.remate-info{
+    border-radius: 0px 70px 0px 0px;
+    font-family: "Sedan";
+    background-color: #873636;
+}
+.remate-card p{
+    color: aliceblue;
+    font-weight: 100;
+    text-align: center;
+}
+.remate-card h3 {
+    font-size: 30px;
+    font-weight: 100;
+    color: aliceblue;
+    align-items: center;
+    padding: 100px;
+}
+.remate-anual-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+.remates-anteriores {
+    margin-left: 300px;
+    padding: 50px;
+    margin-bottom: 40px;
+    border-left: solid black 2px;
+}
+
+.remates-anteriores li{
+    font-family: "Sedan";
+    font-size: 20px;
+    padding: 20px;
+}

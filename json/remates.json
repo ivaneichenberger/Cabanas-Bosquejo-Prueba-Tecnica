@@ -1,0 +1,26 @@
+{
+    "proximoRemate": {
+      "titulo": "1er remate anual",
+      "fecha": "Agosto 2024",
+      "imagen": "../assets/proximoremate.png"
+    },
+    "rematesAnteriores": [
+      {
+        "titulo": "Exp. Nacional Angus 2024",
+        "fecha": "13-7"
+      },
+      {
+        "titulo": "Exp. Nacional Angus 2024",
+        "fecha": "13-7"
+      },
+      {
+        "titulo": "Exp. Nacional Angus 2024",
+        "fecha": "13-7"
+      },
+      {
+        "titulo": "Exp. Nacional Angus 2024",
+        "fecha": "13-7"
+      }
+    ]
+  }
+  
