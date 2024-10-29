@@ -1,61 +1,206 @@
 .card-container {
+    margin-top: 30px;
     display: flex;
+    justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
-
 .card {
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    width: 200px;
+    border-radius: 33px 0px 0px 0px;
+    margin: 13px;
+    width: 400px;
+    height: auto;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+}
+.card-nombre{
+    display: flex;
 }
 
 .card img {
-    max-width: 100%;
-    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    border-radius: 33px 0 0 0;
 }
 
-.card h3 {
-    font-size: 1.2em;
-    margin: 8px 0;
+.card .card-h3 {
+    font-weight: 100;
+    display: inline;
+    border-bottom: solid black 4px;
+    font-family: "Sedan";
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(212, 212, 212, 0.5);
+    padding: 10px 500px 0px 100px;
+    margin-bottom: 30px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
-
-.card p {
+.card.expanded .card-h3 {
+    position: static; 
+    color: #000000;
+    background-color: transparent;
+    margin-top: 10px;
+    
+}
+.card .card-h4 {
+    font-family: "Sedan SC";
+    font-weight: 100;
+    margin-top: 30px;
     display: none;
-    font-size: 0.9em;
-    color: #666;
+    text-align: start;
+    padding: 30px;
+    font-size: 30px;
+    color: #464646;
+}
+
+/*EXpand*/
+.card .final-expand-h3 {
+    font-weight: 100;
+    display: inline;
+    border-bottom: solid black 4px;
+    font-family: "Sedan";
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(212, 212, 212, 0.5);
+    padding: 10px 500px 0px 10px;
+    margin-bottom: 30px;
+    margin-left: -600px;
+    position: absolute;
+    width: 100%;
+    text-align: start;
+    
+}
+.card.expanded .final-expand-h3 {
+    position: static; 
+    color: #000000;
+    background-color: transparent;
+    margin-top: 10px;
+    
+}
+
+.card .final-expand-h4 {
+    font-family: "Sedan SC";
+    font-weight: 100;
+    margin-top: 30px;
+    width: 700px;
+    text-align: start;
+    padding: 30px;
+    font-size: 20px;
+    color: #464646;
+    line-height: 1.6;
 }
 
 .card.expanded {
+    
     width: 100%;
     background-color: #f9f9f9;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.card.expanded p {
+.card.expanded img{
+    width: 500px;
+}
+
+.card.expanded .card-h4 {
     display: block;
 }
 
 .whatsapp-button {
-    background-color: #25D366;
+    font-family: "Sedan SC";
+    font-weight: 100;
+    background-color: #873636;
     color: #fff;
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
-    font-weight: bold;
     display: inline-block;
     margin-top: 10px;
 }
-
 .extra-info {
+    display: flex;
+    flex-direction:column;
+    gap: 8px;
     font-size: 0.9em;
     color: #555;
     margin-top: 10px;
+}
+
+.extra-info .info-row {
+    display: flex;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.extra-info .info-row strong {
+    flex: 1;
+    text-align: left;
+}
+
+.extra-info .info-row span {
+    flex: 1;
+    text-align: left;
+}
+
+
+.genetica-background {
+    display: flex;
+    justify-content: start;
+}
+
+.Titulo-genetica{
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-family: "Sedan";
+    margin: 200px 30px 30px 30px;
+    color: #f9f9f9;
+    position: absolute;
+    border-left: solid #ffffff 6px
+}
+
+.h1-toros-padres{
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-family: "Sedan";
+    margin: 40px 30px 30px 30px;
+    color: #000000;
+    border-left: solid #000000 6px
+}
+
+/* Filtro Botones*/
+.filter-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.filter-buttons button {
+    margin-right: 20px;
+    font-family: "Sedan SC";
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 4px solid #873636;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    transition: background-color 0.3s;
+}
+
+.filter-buttons button:hover {
+    background-color: #ddd;
 }

@@ -1,26 +1,47 @@
 [
     {
-        "nombre": "Producto 1",
-        "descripcion": "Este es el producto 1, con todas sus características destacadas.",
-        "imagen": "https://via.placeholder.com/200",
+        "nombre": "Nombre 1",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre1.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2022-01-15",
         "registro": "ABC123",
+        "familia": "Familia A",
+        "genealogia": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    },
+    {
+        "nombre": "Nombre 2",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre2.jpeg",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2021-05-20",
+        "registro": "XYZ456",
+        "familia": "Familia B"
+    },
+    {
+        "nombre": "Nombre 3",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre3.jpeg",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2021-05-20",
+        "registro": "XYZ456",
+        "familia": "Familia C"
+    }
+    ,
+    {
+        "nombre": "Nombre 4",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre1.jpeg",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2021-05-20",
+        "registro": "XYZ456",
         "familia": "Familia A"
-    },
+    }
+    ,
     {
-        "nombre": "Producto 2",
-        "descripcion": "Este es el producto 2, diseñado con las mejores características.",
-        "imagen": "https://via.placeholder.com/200",
-        "whatsapp": "https://wa.me/1234567890",
-        "fechaNacimiento": "2021-05-20",
-        "registro": "XYZ456",
-        "familia": "Familia B"
-    },
-    {
-        "nombre": "Producto 3",
-        "descripcion": "Este es el producto 2, diseñado con las mejores características.",
-        "imagen": "https://via.placeholder.com/200",
+        "nombre": "Nombre 5",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre2.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
@@ -28,22 +49,41 @@
     }
     ,
     {
-        "nombre": "Producto 4",
-        "descripcion": "Este es el producto 2, diseñado con las mejores características.",
-        "imagen": "https://via.placeholder.com/200",
+        "nombre": "Nombre 6",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre3.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
-        "familia": "Familia B"
+        "familia": "Familia C"
     }
     ,
     {
-        "nombre": "Producto 5",
-        "descripcion": "Este es el producto 2, diseñado con las mejores características.",
-        "imagen": "https://via.placeholder.com/200",
+        "nombre": "Nombre 7",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre1.jpeg",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2021-05-20",
+        "registro": "XYZ456",
+        "familia": "Familia A"
+    }
+    ,    {
+        "nombre": "Nombre 8",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre2.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia B"
     }
+    ,    {
+        "nombre": "Nombre 9",
+        "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "imagen": "../assets/nombre3.jpeg",
+        "whatsapp": "https://wa.me/1234567890",
+        "fechaNacimiento": "2021-05-20",
+        "registro": "XYZ456",
+        "familia": "Familia C"
+    }
+
 ]

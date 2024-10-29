@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expandable Cards</title>
+    <title>Genetica</title>
     <link rel="stylesheet" href="styles/details.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="navbar-container">
@@ -27,8 +39,54 @@
             </ul>
         </nav>
     </header>
+<div class="genetica-background">
+    <img src="assets/599e0aed7955565a696f718c67e851c4.jpeg" width="100%">
+    <h1 class="Titulo-genetica">Genetica</h1>
+</div>
+<div class="titulo-toros-padres">
+    <h1 class="h1-toros-padres">Toros Padres</h1>
+</div>
+<div class="filter-buttons">
+    <button onclick="filterCards('Familia A')">Raza 1</button>
+    <button onclick="filterCards('Familia B')">Raza 2</button>
+    <button onclick="filterCards('Familia C')">Raza 3</button>
+    <button onclick="filterCards('all')">Todos</button>
+</div>
     <div id="card-container" class="card-container"></div>
 
     <script src="js/index.js"></script>
+    <footer class="footer-seccion">
+        <div class="redes">
+            <div class="footer"><ul>
+                <li><span class="material-symbols-outlined">|||||||
+                    phone_in_talk
+                    </span>+012 345 6789</li>
+                <li><span class="material-symbols-outlined">
+                    mail
+                    </span>Hello@animaapp.com</li>
+            </ul></div>
+                </ul>
+            </div>
+            <div class="footer">
+                <div class="contacto-h3">
+                    <h3>Contacto</h3>
+                </div>
+                <ul>
+                    <div class="footer-ul-div">
+                        <ul class="footer-ul" >
+                    <li><img class="img-footer" src="assets/Instagram-logo-sign-black.png" alt=""></li>
+                    <li><img class="img-footer" src="assets/Instagram-logo-sign-black.png" alt=""></li>
+                    <li><img class="img-footer" src="assets/Instagram-logo-sign-black.png" alt=""></li>
+                    <li><img class="img-footer" src="assets/Instagram-logo-sign-black.png" alt=""></li>
+                </ul>
+                </div>
+        </div>
+    </footer>
+    <footer class="footer-almoby-container">
+        <div class="footer-almoby">
+            <h4>© Todos los derechos reservados. Developed by</h4>
+            <img src="assets/almoby.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
