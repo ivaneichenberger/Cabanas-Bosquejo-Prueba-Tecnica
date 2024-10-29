@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
         data.forEach((item) => {
             const card = document.createElement("div");
             card.classList.add("card");
-
             card.innerHTML = `
             <div class="card-nombre">
                 <img src="${item.imagen}" alt="${item.nombre}">
@@ -24,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <h4 class="card-h4">${item.descripcion}</h4>
                     <a href="${item.whatsapp}" target="_blank" class="whatsapp-button">Consultar por WhatsApp</a>
                 </div>
+                <h3 class="card-h3-imagen">${item.nombrecard}</h3>
             </div>
             <div class="extra-info" style="display: none;">
                 <div class="info-row"><strong>Fecha de nacimiento:</strong> ${item.fechaNacimiento}</div>
@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
         `;
-        
             // Expande y colapsa la tarjeta
             card.addEventListener("click", () => {
                 const extraInfo = card.querySelector(".extra-info");

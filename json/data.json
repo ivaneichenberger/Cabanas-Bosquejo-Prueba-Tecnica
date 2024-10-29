@@ -1,6 +1,7 @@
 [
     {
         "nombre": "Nombre 1",
+        "nombrecard": "Nombre1",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre1.jpeg",
         "whatsapp": "https://wa.me/1234567890",
@@ -11,6 +12,7 @@
     },
     {
         "nombre": "Nombre 2",
+        "nombrecard": "Nombre2",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre2.jpeg",
         "whatsapp": "https://wa.me/1234567890",
@@ -20,64 +22,67 @@
     },
     {
         "nombre": "Nombre 3",
+        "nombrecard": "Nombre3",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre3.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia C"
-    }
-    ,
+    },
     {
         "nombre": "Nombre 4",
+        "nombrecard": "Nombre4",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre1.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia A"
-    }
-    ,
+    },
     {
         "nombre": "Nombre 5",
+        "nombrecard": "Nombre5",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre2.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia B"
-    }
-    ,
+    },
     {
         "nombre": "Nombre 6",
+        "nombrecard": "Nombre6",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre3.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia C"
-    }
-    ,
+    },
     {
         "nombre": "Nombre 7",
+        "nombrecard": "Nombre7",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre1.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia A"
-    }
-    ,    {
+    },
+    {
         "nombre": "Nombre 8",
+        "nombrecard": "Nombre8",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre2.jpeg",
         "whatsapp": "https://wa.me/1234567890",
         "fechaNacimiento": "2021-05-20",
         "registro": "XYZ456",
         "familia": "Familia B"
-    }
-    ,    {
+    },
+    {
         "nombre": "Nombre 9",
+        "nombrecard": "Nombre9",
         "descripcion": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "imagen": "../assets/nombre3.jpeg",
         "whatsapp": "https://wa.me/1234567890",
@@ -85,5 +90,4 @@
         "registro": "XYZ456",
         "familia": "Familia C"
     }
-
 ]
