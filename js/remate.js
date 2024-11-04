@@ -1,4 +1,4 @@
-// script.js
+
 
 // Cargar el archivo JSON y mostrar los datos en el HTML
 fetch('../json/remates.json')
